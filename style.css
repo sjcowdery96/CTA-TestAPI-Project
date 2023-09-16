@@ -1,0 +1,31 @@
+/* Headings */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Paragraphs */
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
