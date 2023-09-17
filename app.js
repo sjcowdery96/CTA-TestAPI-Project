@@ -2,7 +2,7 @@
 
 const env = require('dotenv').config({path: './.env'});
 const API_KEY = process.env.API_KEY
-const url = 'https://lapi.transitchicago.com/api/1.0/ttarrivals.aspx?key=${API_KEY}&mapid=40570&outputType=JSON'
+const url = 'https://lapi.transitchicago.com/api/1.0/ttarrivals.aspx?key='+API_KEY+'&mapid=40570&outputType=JSON'
 console.log(url)
 
 //array to hold all the dired arrival objects for the Blue Line California stop
@@ -53,6 +53,7 @@ function fetchTrainTimes(){
 //runs the function
 fetchTrainTimes()
 
+// unused function WIP to update the css components 
 function updateText(element, textInput){
     element.textContent = textInput
     console.log("text test")
